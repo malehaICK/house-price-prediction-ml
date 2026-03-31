@@ -8,17 +8,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #0b0e14;
-    --surface: #111622;
-    --surface2: #161d2e;
-    --border: #1e2a40;
-    --accent: #00d4a4;
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface2: #fefefe;
+    --border: #0041b9;
+    --accent: #233f82;
     --accent2: #4f8fff;
     --accent3: #ff6b6b;
     --accent4: #ffd166;
-    --text: #e8edf7;
-    --muted: #6b7a99;
-    --card-glow: rgba(0, 212, 164, 0.06);
+    --text: #000000;
+    --muted: #000000;
+    --card-glow: rgba(255, 255, 255, 0.06);
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -33,7 +33,7 @@
   /* ── HEADER ── */
   header {
     position: sticky; top: 0; z-index: 100;
-    background: rgba(11,14,20,0.85);
+    background: rgba(138, 148, 167, 0.85);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border);
     padding: 0 2rem;
@@ -281,7 +281,7 @@
 <body>
 
 <header>
-  <div class="logo">HP<span>Predict</span></div>
+  
   <nav>
     <button class="active" onclick="showTab('overview',this)">Overview</button>
     <button onclick="showTab('models',this)">Models</button>
@@ -300,8 +300,8 @@
       <h1>Housing Price Estimation<br>Using <em>Machine Learning</em></h1>
       <p>A comparative study of Linear Regression, Decision Trees, XGBoost, and Ensemble models for predicting residential property values using real-world housing data.</p>
       <div class="hero-authors">
-        <span class="hero-author">Maleha Israt Chowdhury · 202382434</span>
-        <span class="hero-author">Sachi Datta · 202387871</span>
+        <span class="hero-author">Maleha Israt Chowdhury </span>
+        <span class="hero-author">Sachi Datta </span>
         <span class="hero-author">Supervisor: Weimin Huang</span>
         <span class="hero-author">Memorial University</span>
       </div>
