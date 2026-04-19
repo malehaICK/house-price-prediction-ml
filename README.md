@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Model%20Accuracy-99.45%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Model-XGBoost-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/R²%20Score-0.9945-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Best%20Model-XGBoost-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Type-Regression-orange?style=for-the-badge" />
 </p>
@@ -13,22 +13,21 @@
 A machine learning system for accurate housing price prediction using advanced regression models
 </p>
 
+---
+
 ## Overview
 
-This project focuses on predicting housing prices using supervised learning models based on property characteristics such as size, condition, and structural attributes. The goal is to build a reliable system that helps buyers, sellers, and investors make informed decisions.
+This project predicts housing prices using supervised machine learning models based on structural and property-related features.
+
+It provides a data-driven solution to support decision-making for buyers, sellers, and investors.
 
 ---
 
 ## Project Workflow
 
-```mermaid
-flowchart LR
-A[Load Dataset] --> B[Data Cleaning & Preprocessing]
-B --> C[Feature Engineering & Selection]
-C --> D[Train Models]
-D --> E[Evaluate Performance]
-E --> F[Compare Results]
-```
+<p align="center">
+Load Dataset → Clean Data → Feature Engineering → Train Models → Evaluate → Compare
+</p>
 
 ---
 
@@ -37,7 +36,7 @@ E --> F[Compare Results]
 * Data preprocessing (missing values, encoding, scaling)
 * Feature engineering (HouseAge, RemodelAge, LotAreaPerRoom)
 * Multiple model training and comparison
-* Performance evaluation using standard regression metrics
+* Evaluation using standard regression metrics
 * Interactive dashboard for predictions
 
 ---
@@ -55,7 +54,7 @@ E --> F[Compare Results]
 
 * RMSE (Root Mean Squared Error)
 * MAE (Mean Absolute Error)
-* R² Score (Model Accuracy)
+* R² Score (model performance indicator)
 * MAPE (Mean Absolute Percentage Error)
 
 ---
@@ -73,10 +72,10 @@ E --> F[Compare Results]
 
 ## Performance Insights
 
-* XGBoost achieved the highest accuracy (R² = 0.9945)
-* Ensemble model produced the lowest MAE (best consistency)
+* XGBoost achieved the highest performance (R² = 0.9945)
+* Ensemble model produced the lowest MAE (most consistent predictions)
 * Linear Regression struggled with non-linear relationships
-* Feature engineering significantly improved performance
+* Feature engineering significantly improved results
 
 ---
 
@@ -85,7 +84,7 @@ E --> F[Compare Results]
 * Helps buyers avoid overpaying
 * Helps sellers price competitively
 * Supports real estate decision-making
-* Useful for banks and investors
+* Useful for financial institutions and investors
 
 ---
 
@@ -121,23 +120,19 @@ The project includes a web-based dashboard where users can:
 * Handling missing and inconsistent data
 * Feature selection and multicollinearity
 * Model overfitting and generalization
-* Computational cost for advanced models
+* Computational cost of advanced models
 
 ---
 
 ## Future Improvements
 
-* Add location-based features
-* Integrate real-time market data
-* Deploy backend model (Flask / FastAPI)
-* Improve UI for production-level dashboard
+<p align="center">
+[ Location Features ] → [ Real-Time Data ] → [ Backend API ] → [ Production Dashboard ]
+</p>
 
-
+---
 
 ## Conclusion
 
-Machine learning provides a powerful solution for housing price prediction. Among all models, XGBoost and Ensemble methods demonstrated the highest performance, making them suitable for real-world deployment.
-
-
-
-
+Machine learning provides a powerful solution for housing price prediction.
+XGBoost and Ensemble methods demonstrated the strongest performance and are suitable for real-world applications.
