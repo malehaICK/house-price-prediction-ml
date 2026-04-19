@@ -113,17 +113,12 @@ The project includes a web-based dashboard where users can:
 * Deploy backend model (Flask / FastAPI)
 * Improve UI for production-level dashboard
 
----
+
 
 ## Conclusion
 
 Machine learning provides a powerful solution for housing price prediction. Among all models, XGBoost and Ensemble methods demonstrated the highest performance, making them suitable for real-world deployment.
 
----
 
-## Authors
 
-* Maleha Israt Chowdhury
-* Sachi Datta
 
-Supervisor: Weimin Huang
