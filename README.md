@@ -138,25 +138,32 @@ Machine learning provides a powerful solution for housing price prediction.
 XGBoost and Ensemble methods demonstrated the strongest performance and are suitable for real-world applications.
 
 
-
 ## Repository Structure
 
-| File | Description |
-|---|---|
-| `Final_code.ipynb` | Main notebook: data cleaning, feature engineering, model training and evaluation |
-| `HousePricePrediction(Sheet1).csv` | Housing dataset used for training and testing |
-| `index.html` | Interactive dashboard for predictions and model comparison |
-| `Housing price estimation using supervised learning_B.pdf` | Written project report |
+```text
+house-price-prediction-ml/
+├── notebooks/
+│   └── Final_code.ipynb       # cleaning, feature engineering, training, evaluation
+├── data/
+│   └── HousePricePrediction(Sheet1).csv   # housing dataset
+├── dashboard/
+│   └── index.html             # interactive prediction dashboard
+├── Housing price estimation using supervised learning_B.pdf   # written report
+├── LICENSE
+└── README.md
+```
 
 ## Tools and Technologies
 
 Python, Jupyter Notebook, pandas, NumPy, scikit-learn, XGBoost, HTML/CSS/JavaScript (dashboard).
 
 ## How to Run
+
 Step 1. Clone the repository:
 
 ```bash
 git clone https://github.com/malehaICK/house-price-prediction-ml.git
+cd house-price-prediction-ml
 ```
 
 Step 2. Install the dependencies:
@@ -165,13 +172,15 @@ Step 2. Install the dependencies:
 pip install pandas numpy scikit-learn xgboost matplotlib jupyter
 ```
 
-Step 3. Open the notebook and run all cells. Keep the CSV file in the same folder as the notebook:
+Step 3. Open the notebook:
 
 ```bash
-jupyter notebook Final_code.ipynb
+jupyter notebook notebooks/Final_code.ipynb
 ```
 
-Step 4. To view the dashboard, open `index.html` in a web browser.
+The notebook was written in Google Colab and reads the dataset from `/content/HousePricePrediction(Sheet1).csv`. To run it locally, change the `file_name` line in the data loading cell to `../data/HousePricePrediction(Sheet1).csv`. In Colab, upload the CSV from the `data/` folder to `/content/`.
+
+Step 4. To view the dashboard, open `dashboard/index.html` in a web browser.
 
 ## Report
 
