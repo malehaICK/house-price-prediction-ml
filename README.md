@@ -136,3 +136,51 @@ The project includes a web-based dashboard where users can:
 
 Machine learning provides a powerful solution for housing price prediction.
 XGBoost and Ensemble methods demonstrated the strongest performance and are suitable for real-world applications.
+
+
+
+## Repository Structure
+
+| File | Description |
+|---|---|
+| `Final_code.ipynb` | Main notebook: data cleaning, feature engineering, model training and evaluation |
+| `HousePricePrediction(Sheet1).csv` | Housing dataset used for training and testing |
+| `index.html` | Interactive dashboard for predictions and model comparison |
+| `Housing price estimation using supervised learning_B.pdf` | Written project report |
+
+## Tools and Technologies
+
+Python, Jupyter Notebook, pandas, NumPy, scikit-learn, XGBoost, HTML/CSS/JavaScript (dashboard).
+
+## How to Run
+Step 1. Clone the repository:
+
+```bash
+git clone https://github.com/malehaICK/house-price-prediction-ml.git
+```
+
+Step 2. Install the dependencies:
+
+```bash
+pip install pandas numpy scikit-learn xgboost matplotlib jupyter
+```
+
+Step 3. Open the notebook and run all cells. Keep the CSV file in the same folder as the notebook:
+
+```bash
+jupyter notebook Final_code.ipynb
+```
+
+Step 4. To view the dashboard, open `index.html` in a web browser.
+
+## Report
+
+The full write-up, covering methodology, evaluation and results, is in `Housing price estimation using supervised learning_B.pdf`.
+
+## Author
+
+Maleha Israt Chowdhury. [Portfolio](https://malehaisratchowdhury.netlify.app/)
+
+## License
+
+Released under the MIT License. See the `LICENSE` file.
